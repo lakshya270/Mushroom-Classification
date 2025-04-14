@@ -3,6 +3,8 @@
 Content : 
 This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy.
 
+Tools and technologies used :
+The project uses Python along with data science libraries such as Pandas for data handling, Scikit-learn for model training, and Matplotlib/Seaborn for data visualization. Techniques include label encoding for categorical variables, train-test split, and training classifiers like Random Forest. Achieved 96% accuracy, with a detailed classification report and confusion matrix confirming strong precision and recall across classes.
 
 About this file and Attribute Information: (classes: edible=e, poisonous=p)
 
